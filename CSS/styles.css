@@ -85,9 +85,31 @@ header{
 
 }
 .card-text{
-margin-bottom: 30px;
-padding: auto;
+    margin-bottom: 30px;
+    padding: auto;
 }
 
+/* --------  FIM CARDS --------------- */
 
 
+/* ----- Banner ----------- */
+.banner{
+    margin: 50px;
+    padding: 0% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        width: 100%;
+        max-width: 1500px;
+    }
+}
+
+.cardbanner{
+    position: absolute;
+    left: 13%;
+    color: aliceblue;
+    font-size:x-large;
+}
