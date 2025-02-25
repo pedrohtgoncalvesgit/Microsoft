@@ -63,7 +63,31 @@ header{
 }
 /* ------------- FIM LINK ----------- */
 
+/* ------------- Cards ----------- */
+.container-cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
 
+    .card{
+     padding: 20px;
+    }
+    .card-body{
+        display:flex ;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+.btn.btn-primary{
+    border: 5px;
+    border-radius: 10px;
+
+}
+.card-text{
+margin-bottom: 30px;
+padding: auto;
+}
 
 
 
